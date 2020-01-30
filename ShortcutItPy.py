@@ -25,6 +25,7 @@ def run(context):
             ('SetOrbitCenterCommand', None),
             ('ResetOrbitCenterCommand', None),
             ('SoftDeleteCommand', None),
+            ('FusionActivateLocalCompCmd', None),
         )
         for cmdName, resDir in needCmdDefs:
             cmd = ui.commandDefinitions.itemById(cmdName)
